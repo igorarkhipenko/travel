@@ -1,10 +1,12 @@
+#header {	
+	width: auto;
+	height: 90%;
+}
+
 #header .jumbotron {
-	background-image: url('i/main.jpg');
+	background-image: url('https://igorarkhipenko.github.io/travel/i/main.jpg');
 	background-position: center 30%;
-	width: 100%;
-	height: 100%;
 	background-size: cover;
-	text-align: center;
 	color: white;
 }
 
@@ -18,14 +20,54 @@
 
 #header #travel {
 	font-family: 'Merienda One', cursive;
-	margin-left: 40%;
+	margin-left: 60%;
 }
 
 #header #live {
 	font-family: 'Merienda One', cursive;
-	margin-left: 30%;
+	margin-left: 50%;
+}
+
+#map {
+	background-image: url('i/map.jpg');
+	background-position: left 30%;
+	background-size: cover;
+	padding: 150px;	
 }
 
 #header #contacts {
 	margin-top: 500px;
+}
+
+#services {
+	padding: 10px;
+}
+
+.logo-small {
+	color: #59908e;
+	font-size: 50px;
+}
+
+.block-header {
+	padding: 30px 0px 10px 0px;
+	font-family: 'Bungee', cursive;
+}
+
+.service-icon {
+	padding: 10px;
+	font-family: 'Merienda One', cursive;
+	display: inline;
+	float: left;
+}
+
+.description {
+	padding: 10px;
+	font-family: 'Roboto', cursive;
+	font-size: 18px;
+}
+
+.details {
+	padding: 10px;
+	font-family: 'Roboto', cursive;
+	font-size: 14px;
 }
