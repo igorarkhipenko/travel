@@ -1,17 +1,25 @@
+#header .navbar {
+	font-family: 'Bungee', cursive;
+	opacity: 0.9;
+}
+
+#main-logo {
+	font-size: 20px;	
+	color: #59908e;
+}
+
+#header .navbar ul {	
+	margin-right: 10px;
+}
+
 #header .jumbotron {
 	background-image: url('https://igorarkhipenko.github.io/travel/i/main.jpg');
 	background-position: center 30%;
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
-    height: 100vh;
+	height: 100vh;
 }
-
-#header .container {
-	//margin-top: 5%;
-}
-
-#header {}
 
 #header #discover {
 	font-family: 'Bungee', cursive;
@@ -45,6 +53,13 @@
 	background-color: #bed8d7;
 }
 
+#portfolio .container .thumbnail {
+	padding: 8px;	
+	background-color: #bed8d7;
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
+}
+
 .logo-small {
 	color: #59908e;
 	font-size: 50px;
@@ -73,4 +88,15 @@
 	padding: 10px;
 	font-family: 'Roboto', cursive;
 	font-size: 14px;
+}
+
+.thumbnail {
+	padding: 0 0 15px 0;
+	border: none;
+	border-radius: 0;
+}
+
+.thumbnail p {
+	margin-top: 15px;
+	color: #555;
 }
