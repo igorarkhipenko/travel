@@ -6,6 +6,7 @@
 #main-logo {
 	font-size: 20px;	
 	color: #59908e;
+	margin-left: 10%;
 }
 
 #header .navbar ul {	
@@ -60,6 +61,16 @@
 	font-size: 24px;
 }
 
+#contacts {
+	background-color: #bed8d7;	
+	padding: 10px;
+	font-family: 'Roboto', cursive;
+}
+
+#contacts #address {
+	
+}
+
 .logo-small {
 	color: #59908e;
 	font-size: 50px;
@@ -99,4 +110,8 @@
 .thumbnail p {
 	margin-top: 15px;
 	color: #555;
+}
+
+#map {
+	width: 100%;
 }
