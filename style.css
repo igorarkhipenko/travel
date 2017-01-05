@@ -1,18 +1,17 @@
-#header {	
-	width: auto;
-	height: 90%;
-}
-
 #header .jumbotron {
 	background-image: url('https://igorarkhipenko.github.io/travel/i/main.jpg');
 	background-position: center 30%;
 	background-size: cover;
+	background-attachment: fixed;
 	color: white;
+    height: 100vh;
 }
 
 #header .container {
-	margin-top: 5%;
+	//margin-top: 5%;
 }
+
+#header {}
 
 #header #discover {
 	font-family: 'Bungee', cursive;
@@ -28,19 +27,22 @@
 	margin-left: 50%;
 }
 
-#map {
-	background-image: url('i/map.jpg');
-	background-position: left 30%;
-	background-size: cover;
-	padding: 150px;	
+#about .container {	
+	//background-color: #bed8d7;
+}
+
+#about .container #logo {
+	border-radius: 50%;
+	border-color: #bed8d7;
+	border-style: solid;
 }
 
 #header #contacts {
-	margin-top: 500px;
 }
 
 #services {
 	padding: 10px;
+	background-color: #bed8d7;
 }
 
 .logo-small {
@@ -63,7 +65,8 @@
 .description {
 	padding: 10px;
 	font-family: 'Roboto', cursive;
-	font-size: 18px;
+	font-size: 16px;
+	line-height: 1.8;
 }
 
 .details {
